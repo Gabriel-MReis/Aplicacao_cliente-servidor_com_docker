@@ -4,7 +4,7 @@ import mysql.connector
 
 def load_questions():
     connection = mysql.connector.connect(
-        host='localhost',
+        host='mysql-container',
         user='root',
         password='root',
         database='quizdb'
