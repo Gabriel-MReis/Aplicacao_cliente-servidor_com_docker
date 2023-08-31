@@ -45,7 +45,7 @@ docker run --network mynetwork -p 12345:12345 -it server-app
 
 ## Autores
 
-- [Seu Nome]
+- Gabriel Magalhães Reis
 
 ---
 
