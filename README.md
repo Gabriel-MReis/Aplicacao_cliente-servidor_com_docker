@@ -20,10 +20,10 @@ Esta é uma aplicação cliente-servidor que utiliza contêineres Docker para is
 
 1. Construa a imagem Docker para o servidor:
 
-```bash
-docker build -t server-app -f Dockerfile.server .
-docker run --network mynetwork -p 12345:12345 -it server-app
-```
+    ```bash
+    docker build -t server-app -f Dockerfile.server .
+    docker run --network mynetwork -p 12345:12345 -it server-app
+    
 
 ## Funcionamento da Aplicação
 
