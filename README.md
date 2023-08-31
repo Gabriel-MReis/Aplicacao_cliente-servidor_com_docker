@@ -14,7 +14,7 @@ Esta é uma aplicação cliente-servidor que utiliza contêineres Docker para is
 1. Execute o contêiner Docker para o banco de dados MySQL:
    
    ```bash
-   docker run --name mysql-container --network mynetwork -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=quizdb -d mysql:latest
+   docker run --name mysql-container --network mynetwork -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=quizdb -d mysql:latest
 
 ### Passo 2: Servidor
 
